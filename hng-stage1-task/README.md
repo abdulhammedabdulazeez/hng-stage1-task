@@ -130,7 +130,7 @@ hng-stage1-task/
 
 ### Railway Deployment
 
-This application is configured for easy deployment to Railway using just a `Procfile`:
+This application is configured for easy deployment to Railway using a `start.sh` script:
 
 1. **Install Railway CLI:**
 ```bash
@@ -161,7 +161,7 @@ railway domain
 
 1. Go to [Railway.app](https://railway.app)
 2. Connect your GitHub repository
-3. Railway will automatically detect the Python project and use the `Procfile`
+3. Railway will automatically detect the Python project and use the `start.sh` script
 4. The app will be deployed automatically
 
 ### Environment Variables
